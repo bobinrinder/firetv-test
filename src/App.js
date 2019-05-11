@@ -1,7 +1,7 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import 'Buttons';
+import './Buttons.js';
 
 class App extends React.Component {
   UP = 38;
