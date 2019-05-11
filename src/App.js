@@ -1,7 +1,7 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import Buttons from 'Buttons'
+import 'Buttons';
 
 class App extends React.Component {
   UP = 38;
@@ -35,7 +35,7 @@ class App extends React.Component {
     }
       , false);
     window.addEventListener('keyDown', function (e) { console.log('key down', e.detail.keyCode); }, false);
-    console.log(Buttons);
+    // console.log(Buttons);
   }
 
   handleButtons = (keyCode) => {
